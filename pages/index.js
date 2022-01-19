@@ -3,6 +3,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 
 const Layout = React.memo(function Layout() {
+  console.log("@ Layout")
+
   return <div>
     test
     <style jsx>{`
